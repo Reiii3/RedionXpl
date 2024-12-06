@@ -31,7 +31,6 @@ settings put global zram_enabled 0
 settings put system multicore_packet_scheduler 0
 settings put global game_mode 1
 cmd settings delete global game_mode_game_env
-cmd settings delete global transsion_game_accleration
 cmd settings delete global io.scheduler_slice_idle
 cmd settings delete global os_supreme_user_experience
 settings put global power_check_max_cpu_1 80
