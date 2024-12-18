@@ -33,6 +33,9 @@ settings put global game_mode 1
 cmd settings delete global game_mode_game_env
 cmd settings delete global io.scheduler_slice_idle
 cmd settings delete global os_supreme_user_experience
+settings put global enable_gpu_debug_layers 0
+settings put global debug.hwui.profile false
+settings put global debug.vulkan.enable 0
 settings put global power_check_max_cpu_1 80
 settings put global power_check_max_cpu_2 80
 settings put global power_check_max_cpu_3 75
