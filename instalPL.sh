@@ -27,7 +27,6 @@ sleep 1
 # // Setinggs system
 
 settings put global accessibility_reduce_transparency 1
-settings put global zram_enabled 1
 settings put system multicore_packet_scheduler 1
 settings put global game_mode 1
 cmd settings put global game_mode_game_env 1
