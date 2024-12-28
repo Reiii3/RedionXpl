@@ -31,6 +31,9 @@ cmd settings put global game_mode_game_env 1
 settings put global enable_gpu_debug_layers 1
 settings put global debug.hwui.profile true
 settings put global debug.vulkan.enable 1
+setprop debug.hwui.target_cpu_time_percent 250
+setprop debug.hwui.target_gpu_time_percent 250
+setprop debug.hwui.target_mem_time_percent 250
 settings put global power_check_max_cpu_1 95
 settings put global power_check_max_cpu_2 95
 settings put global power_check_max_cpu_3 90
