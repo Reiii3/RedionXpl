@@ -26,12 +26,8 @@ echo "────────────────────────�
 sleep 1
 # // Setinggs system
 
-settings put global accessibility_reduce_transparency 0
-settings put system multicore_packet_scheduler 0
 settings put global game_mode 1
 cmd settings delete global game_mode_game_env
-cmd settings delete global io.scheduler_slice_idle
-cmd settings delete global os_supreme_user_experience
 settings put global enable_gpu_debug_layers 0
 settings put global debug.hwui.profile false
 settings put global debug.vulkan.enable 0
