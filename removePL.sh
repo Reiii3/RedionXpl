@@ -39,10 +39,10 @@ settings put global power_check_max_cpu_2 80
 settings put global power_check_max_cpu_3 75
 settings put global power_check_max_cpu_4 75
 
-echo "
+echo "${wr}
 ▒█▀▀█ ▒█▀▀▀ ▒█▀▀▄ ▀█▀ ▒█▀▀▀█ ▒█▄░▒█ ▀▄▒▄▀ 
 ▒█▄▄▀ ▒█▀▀▀ ▒█░▒█ ▒█░ ▒█░░▒█ ▒█▒█▒█ ░▒█░░ 
-▒█░▒█ ▒█▄▄▄ ▒█▄▄▀ ▄█▄ ▒█▄▄▄█ ▒█░░▀█ ▄▀▒▀▄"
+▒█░▒█ ▒█▄▄▄ ▒█▄▄▀ ▄█▄ ▒█▄▄▄█ ▒█░░▀█ ▄▀▒▀▄${nwr}"
 sleep 1
 echo
 echo "[ - ] Removing ${name} success"
