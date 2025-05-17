@@ -49,6 +49,7 @@ echo "[ - ] Installing ${name} success"
 sleep 1.5
 echo 
 echo "| Enjoy To The Game |"
+echo 
 echo "───────────────────────────────────────────────────────"
 echo
 sleep 1
